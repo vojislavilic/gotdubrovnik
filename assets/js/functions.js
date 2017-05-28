@@ -97,14 +97,15 @@
     });
 
     heroSlider.owlCarousel({
-        loop:true,
-        nav:true,
+        loop: true,
+        dots: false,
+        nav: true,
         responsive:{
             0:{
-                items:1
+                items: 1
             },
             1000:{
-                items:1
+                items: 1
             }
         }
     });
