@@ -38,7 +38,7 @@
   $(function() {
 
   // All elements
-  $('body').fontFlex(14, 16, 70);
+  $('body').fontFlex(12, 14, 18);
 
   
 });
