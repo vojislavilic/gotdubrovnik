@@ -60,41 +60,18 @@
       });
     }
 
+    /*------------------------- Magnific Popup ----------------------------*/
+
+    $('#home-gallery a').magnificPopup({
+        type:'image',
+        removalDelay: 300,
+        mainClass: 'mfp-fade'
+    });
 
     /*------------------------- Portfolio Slider ----------------------------*/
 
-    var itemSlider = $('#portfolio-slider'),
-    heroSlider = $('#hero-slider');
-
-    itemSlider.owlCarousel({
-      loop:true,
-      nav:true,
-      autoplay : true,
-      autoplayHoverPause : true,
-      responsiveClass:true,
-      responsive:{
-          0:{
-              items:1
-          },
-          450:{
-              items:2
-          },
-          600:{
-              items:2
-          },
-          700:{
-              items:2
-          },
-          1000:{
-              items:3
-          },
-          1200:{
-              items:4
-          }
-      },
-      responsiveRefreshRate : 200,
-      responsiveBaseElement: window
-    });
+    var heroSlider = $('#hero-slider'),
+    itemSlider = $('#friends-slider');
 
     heroSlider.owlCarousel({
         loop: true,
@@ -108,6 +85,37 @@
                 items: 1
             }
         }
+    });
+
+    itemSlider.owlCarousel({
+      loop:true,
+      // nav:true,
+      dots: false,
+      // autoplay : true,
+      // autoplayHoverPause : true,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          450:{
+              items:2
+          },
+          600:{
+              items:2
+          },
+          700:{
+              items:3
+          },
+          1000:{
+              items:4
+          },
+          1200:{
+              items:5
+          }
+      },
+      responsiveRefreshRate : 200,
+      responsiveBaseElement: window
     });
 
 });

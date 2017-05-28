@@ -66,12 +66,6 @@
 	.google-map-container {
 		height: 550px;
 	}
-	.portfolio-title:before, 
-	.portfolio-title:after,
-	.post-area-title:before, 
-	.post-area-title:after {
-		width: 25%;
-	}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1023px) {
@@ -86,12 +80,6 @@
 	.google-map-container {
 		height: 500px;
 	}
-	.portfolio-title:before, 
-	.portfolio-title:after,
-	.post-area-title:before, 
-	.post-area-title:after {
-		width: 25%;
-	}
 }
 
 
@@ -105,22 +93,10 @@
 	.affix .navbar-nav>li>a {
 		padding: 20px 10px;
 	}
-	.search-field {
-		width: 250px;
-	}
 	.main-slider,
 	.main-slider svg,
 	.google-map-container {
 		height: 500px;
-	}
-	.portfolio-title:before, 
-	.portfolio-title:after,
-	.post-area-title:before, 
-	.post-area-title:after {
-		width: 25%;
-	}
-	.blog-post-singgle-page blockquote {
-		margin-left: 0px;
 	}
 }
 
@@ -134,31 +110,10 @@
 	.affix .navbar-nav>li>a {
 		padding: 20px 10px;
 	}
-	.search-field {
-		width: 250px;
-	}
 	.main-slider,
 	.main-slider svg,
 	.google-map-container {
 		height: 450px;
-	}
-	.portfolio-title:before, 
-	.portfolio-title:after,
-	.post-area-title:before, 
-	.post-area-title:after {
-		width: 25%;
-	}
-	.panel-default>.panel-heading {
-		padding-right: 15px;
-	}
-	.blog-post-singgle-page blockquote {
-		margin-left: 0px;
-	}
-	.message-details input {
-		padding: 19px 20px !important;
-	}
-	.service-items .sub-title {
-		font-size: 1.25em;
 	}
 }
 
@@ -172,37 +127,10 @@
 	.affix .navbar-nav>li>a {
 		padding: 20px 10px;
 	}
-	.search-field {
-		width: 250px;
-	}
 	.main-slider,
 	.main-slider svg,
 	.google-map-container {
 		height: 400px;
-	}
-	.carousel-caption {
-		padding-top: 5%;
-	}
-	.portfolio-title:before, 
-	.portfolio-title:after,
-	.post-area-title:before, 
-	.post-area-title:after {
-		width: 25%;
-	}
-	.panel-default>.panel-heading {
-		padding: 16px 50px;
-	}
-	.blog-post-singgle-page blockquote {
-		margin-left: 0px;
-	}
-	.message-details input {
-		padding: 19px 20px !important;
-	}
-	.service-items .sub-title {
-		font-size: 1.25em;
-	}
-	.blog-sidebar {
-		padding-left: 0px;
 	}
 }
 
