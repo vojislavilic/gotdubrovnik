@@ -49,6 +49,8 @@
     heroSlider.owlCarousel({
         loop: true,
         dots: false,
+        autoplay : true,
+        autoplayHoverPause : true,
         nav: true,
         navText: ['<span class="fa fa-chevron-left"></span>','<span class="fa fa-chevron-right"></span>'],
         responsive:{
@@ -65,8 +67,8 @@
       loop:true,
       // nav:true,
       dots: false,
-      // autoplay : true,
-      // autoplayHoverPause : true,
+      autoplay : true,
+      autoplayHoverPause : true,
       responsiveClass:true,
       responsive:{
           0:{
