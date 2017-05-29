@@ -190,6 +190,9 @@ button:focus {
 .btn-transparent {
 	color: #7e7e7e;
 }
+.btn-md {
+	padding: 10px 15px;
+}
 .btn-xl {
 	padding: 10px 80px;
 }
@@ -446,10 +449,18 @@ header .site-logo {
 	/*padding-top: 40px;*/
 	margin-bottom: 80px;
 }
+.about.about-tours {
+	padding-top: 12px;
+	margin-bottom: 110px;
+}
 .about .got-houses {
 	color: #ad1324;
 	margin-bottom: 20px;
 	font-size: 130px;
+}
+.about.about-tours .got-houses {
+	margin-bottom: 0;
+	font-size: 103px;
 }
 .about .got-houses [class^="icon-"]:before,
 .about .got-houses [class*=" icon-"]:before {
@@ -543,6 +554,9 @@ header .site-logo {
 }
 .tour-text {
 	line-height: 23px;
+	padding-top: 10px;
+}
+.home-tour .tour-text {
 	padding-top: 40px;
 }
 
