@@ -415,18 +415,18 @@ header .site-logo {
 	background-image: none;
 	background-color: rgba(0, 0, 0, 0.6);
 	font-size: 2em;
-	width: 50px;
+	width: 60px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
 	top: 50%;
 	margin-top: -25px;
 
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	-o-transition: all 0.25s ease;
-	transition: all 0.25s ease;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-ms-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
 }
 .owl-carousel .owl-next {
 	right: -10%;
@@ -589,6 +589,52 @@ header .site-logo {
 }
 #home-gallery [class^="col-"], #home-gallery [class*=" col-"] {
 	padding: 0;
+}
+#home-gallery a.item-image {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+#home-gallery a.item-image:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    top: 0;
+    left: 0;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+#home-gallery a.item-image:hover:after {
+    background: rgba(0,0,0,.5);
+}
+#home-gallery a.item-image .icon-plus {
+    font-size: 50px;
+    position: absolute;
+    transform: translate(-50%,0);
+    top: 50%;
+    left: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+    z-index: 1;
+}
+#home-gallery a.item-image:hover .icon-plus {
+    transform: translate(-50%,-50%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
 }
 
 /* Guide section */

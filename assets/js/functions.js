@@ -38,7 +38,10 @@
     $('#home-gallery a').magnificPopup({
         type:'image',
         removalDelay: 300,
-        mainClass: 'mfp-fade'
+        mainClass: 'mfp-fade',
+        gallery:{
+          enabled:true
+        }
     });
 
     /*------------------------- Portfolio Slider ----------------------------*/

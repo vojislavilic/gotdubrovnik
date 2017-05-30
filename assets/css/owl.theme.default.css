@@ -7,21 +7,16 @@
  * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
-  margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-nav [class*='owl-'] {
-    color: #FFF;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-    background: #D6D6D6;
+    color: #fff;
+    font-size: 20px;
     display: inline-block;
-    cursor: pointer;
-    border-radius: 3px; }
+    cursor: pointer; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #869791;
-      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
       text-decoration: none; }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
