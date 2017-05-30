@@ -236,6 +236,23 @@ button:focus {
     background: url(/images/bg-subline-white.png) no-repeat center center;
     margin-bottom: 40px;
 }
+.dropdown-menu {
+    min-width: initial;
+    padding: 0;
+    margin-top: 7px;
+    border: 0;
+    border-radius: 3px;
+}
+.dropdown-menu li {
+    display: block;
+}
+.dropdown-menu li a {
+    float: left;
+    padding: 10px 14px;
+}
+.dropdown-menu li a img {
+    float: left;
+}
 
 /* 2.1 - Headings 
 --------------------------------------------- */
@@ -293,6 +310,12 @@ h6 {
 }
 .contact-list li .dropdown {
 	display: inline-block;
+}
+.contact-list li .dropdown a:hover {
+	color: #ad1324;
+}
+.contact-list li .dropdown > a img {
+	margin-left: 10px;
 }
 .top-icon {
 	color: #000;
@@ -418,6 +441,11 @@ header .site-logo {
 .carousel-title {
 	font-size: 34px;
 	line-height: 55px;
+}
+.carousel-title::first-letter,
+.carousel-title .cap {
+	font-size: 45px;
+	display: inline-block;
 }
 .carousel-title span {
 	display: block;
