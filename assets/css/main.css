@@ -232,6 +232,10 @@ button:focus {
     height: 3px;
     margin-bottom: 60px;
 }
+.subline.subline-white {
+    background: url(/images/bg-subline-white.png) no-repeat center center;
+    margin-bottom: 40px;
+}
 
 /* 2.1 - Headings 
 --------------------------------------------- */
@@ -496,6 +500,7 @@ header .site-logo {
 }
 .our-tours h2 {
 	color: #fff;
+	margin-bottom: 14px;
 }
 .card {
 	padding-bottom: 45px;
