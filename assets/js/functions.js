@@ -44,6 +44,15 @@
         }
     });
 
+
+    /*------------------------- Tooltipster ----------------------------*/
+    $('.tooltipster').tooltipster({
+      animation: 'grow',
+      theme: 'tooltipster-borderless',
+      side: 'right'
+    });
+
+
     /*------------------------- Portfolio Slider ----------------------------*/
 
     var heroSlider = $('#hero-slider'),
