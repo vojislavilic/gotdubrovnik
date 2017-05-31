@@ -486,6 +486,21 @@ header .site-logo {
 }
 
 /* About Section */
+#about .forts-bg {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -160px;
+	background: url(/images/bg-forts-about.png) no-repeat right top;
+	z-index: 1;
+}
+#about.about-tours .forts-bg {
+    margin-top: -220px;
+}
+#about .forts-bg + .container {
+	position: relative;
+	z-index: 2;
+}
 .about {
 	/*padding-top: 40px;*/
 	margin-bottom: 80px;
@@ -525,6 +540,10 @@ header .site-logo {
 	background-size: cover;
 	padding-top: 60px;
 	padding-bottom: 80px;
+}
+.our-tours > .container {
+	position: relative;
+	z-index: 2;
 }
 .our-tours h2 {
 	color: #fff;
@@ -612,6 +631,18 @@ header .site-logo {
 #facts {
 	padding-top: 60px;
 	padding-bottom: 90px;
+}
+#facts .forts-bg {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -390px;
+	background: url(/images/bg-forts-facts.png) no-repeat left top;
+	z-index: 1;
+}
+#facts .forts-bg + .container {
+	position: relative;
+	z-index: 2;
 }
 .facts-title {
 	color: #ad1324;
