@@ -602,6 +602,9 @@ header .site-logo {
 	letter-spacing: 1.2px;
 	text-transform: uppercase;
 }
+.card-footer {
+    overflow: hidden;
+}
 .tour-duration {
 	color: #999;
 }

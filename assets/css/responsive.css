@@ -1,26 +1,51 @@
-/* 1 - media screen and (max-width: 992px)
----------------------------------------------------------------------- */
-
-@media screen and (min-width: 1171px) and (max-width: 1200px) {
-	.navbar-nav>li>a {
-		padding: 25px 20px;
+@media screen and (max-width: 1024px) {
+	.btn-xl {
+	    padding: 10px 50px;
 	}
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1170px) {
-	.navbar-nav>li>a {
-		padding: 25px 20px;
+	.top-contact {
+	    padding: 17px 0;
 	}
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1100px) {
-	.navbar-nav>li>a {
-		padding: 25px 20px;
+	.navbar-nav > li > a {
+		padding: 17px 20px;
 	}
 	.main-slider,
-	.main-slider svg,
 	.google-map-container {
 		height: 550px;
+	}
+	.slider-icon {
+	    font-size: 100px;
+	}
+	.carousel-title {
+	    font-size: 24px;
+	    line-height: 35px;
+	}
+	.carousel-title::first-letter,
+	.carousel-title .cap {
+	    font-size: 30px;
+	}
+	#about .forts-bg {
+	    margin-top: -80px;
+	    background-size: 60% auto;
+	}
+	#about.about-tours .forts-bg {
+	    margin-top: -100px;
+	}
+	.about .got-houses {
+	    font-size: 100px;
+	}
+	#facts .forts-bg {
+	    margin-top: -190px;
+	    background-size: 70% auto;
+	}
+	.card {
+	    padding-bottom: 15px;
+	}
+	.card-content {
+	    padding: 35px 25px 20px 25px;
+	}
+	.card-footer .btn {
+	    padding: 10px 0;
+	    display: block;
 	}
 }
 
