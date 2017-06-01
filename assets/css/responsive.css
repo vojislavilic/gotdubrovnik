@@ -87,13 +87,23 @@
 	.about .got-houses {
 	    font-size: 70px;
 	}
+	.card {
+	    margin-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 480px) {
-	.top-contact {
-		display: none;
+	h2 {
+	    font-size: 20px;
+	    margin-bottom: 30px;
 	}
-	.site-banner {
+	.subline {
+	    margin-bottom: 40px;
+	}
+	.google-map-container {
+		height: 350px;
+	}
+	.top-contact {
 		display: none;
 	}
 	.menu-logo {
@@ -101,6 +111,7 @@
 	}
 	.menu-logo .icon-gotd-logo {
 	    font-size: 40px;
+	    color: #333;
 	}
 	.menu-logo .icon-gotd-logo:before {
 	    width: auto;
@@ -115,104 +126,87 @@
 		padding: 15px;
 	}
 	.navbar-nav {
-		margin: 0px;
+		margin: 0 0 20px 0;
+		width: 100%;
 	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
+	.navbar-nav > li > a {
+		padding: 10px;
 		display: block;
-		border-left: none
+		border-left: none;
 	}
-}
-
-@media screen and (min-width: 374px) and (max-width: 414px) {
-	.top-contact {
-		display: none;
+	nav#menu {
+	    padding: 0;
 	}
-	.site-banner {
-		display: none;
+	.slider-icon {
+	    font-size: 30px;
 	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
+	.carousel-title {
+	    font-size: 14px;
+	    line-height: 18px;
 	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
 	}
-	.navbar-collapse {
-		padding: 15px;
+	.carousel-title::first-letter,
+	.carousel-title .cap {
+	    font-size: 18px;
 	}
-	.navbar-nav {
-		margin: 0px;
+	#about .forts-bg {
+	    margin-top: 0;
 	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
+	#about.about-tours .forts-bg {
+	    margin-top: 0;
 	}
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-	.top-contact {
-		display: none;
+	.about .got-houses {
+	    font-size: 40px;
 	}
-	.site-banner {
-		display: none;
+	#about .subline {
+	    margin-bottom: 20px;
 	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
+	.about.about-tours {
+	    padding-top: 0;
+	    margin-bottom: 80px;
 	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
+	.about.about-tours .got-houses {
+	    margin-bottom: 0;
+	    font-size: 80px;
 	}
-	.navbar-collapse {
-		padding: 15px;
+	#facts .forts-bg {
+	    margin-top: 0;
 	}
-	.navbar-nav {
-		margin: 0px;
+	.fact-counter {
+	    font-size: 70px;
 	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
+	.card .card-thumbnail img {
+	    width: 100%;
 	}
-}
-
-@media screen and (max-width: 320px) {
-	.top-contact {
-		display: none;
+	#guide {
+	    padding-bottom: 60px;
 	}
-	.site-banner {
-		display: none;
+	.subscribe-section .form-control {
+	    margin-bottom: 20px;
 	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
+	.subscribe-section .btn {
+	    margin-left: 0;
+	    padding: 10px 0;
+	    display: block;
+	    width: 100%;
 	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
+	.footer-top {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
 	}
-	.navbar-collapse {
-		padding: 15px;
+	.footer-top .contact-list {
+	    margin-bottom: 30px;
 	}
-	.navbar-nav {
-		margin: 0px;
+	.footer-top .footer-disclaimer {
+	    margin-bottom: 40px;
 	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
+	footer .form-group {
+	    margin-bottom: 0;
+	}
+	footer .form-control {
+	    margin-bottom: 20px;
+	}
+	.footer-bottom .site-logo {
+	    text-align: center;
 	}
 }
