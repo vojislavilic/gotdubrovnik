@@ -47,93 +47,24 @@
 	    padding: 10px 0;
 	    display: block;
 	}
-}
-
-@media screen and (min-width: 993px) and (max-width: 1023px) {
-	.navbar-nav>li>a {
-		padding: 25px 20px;
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 500px;
+	.footer-top {
+	    background: none;
 	}
 }
 
-
-@media screen and (min-width: 901px) and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+	.navbar-header {
+	    float: none;
+	}
+	header .site-logo {
+	    margin-top: 0;
+	    max-width: 140px;
+	}
 	.contact-list li {
 		padding-right: 10px;
 	}
-	.navbar-nav>li>a {
-		padding: 20px 10px;
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 500px;
-	}
-}
-
-@media screen and (min-width: 860px) and (max-width: 900px) {
-	.contact-list li {
-		padding-right: 10px;
-	}
-	.navbar-nav>li>a {
-		padding: 20px 10px;
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 450px;
-	}
-}
-
-@media screen and (min-width: 801px) and (max-width: 859px) {
-	.contact-list li {
-		padding-right: 10px;
-	}
-	.navbar-nav>li>a {
-		padding: 20px 10px;
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 400px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 800px) {
-	.contact-list li {
-		padding-right: 10px;
-	}
-	.navbar-nav>li>a {
-		padding: 20px 10px;
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 350px;
-	}
-}
-
-@media screen and (min-width: 721px) and (max-width: 767px) {
-	.site-banner {
-		display: none;
-	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
-	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
-	}
-	.contact-list li {
-		padding-right: 10px;
+	nav#menu {
+		padding-right: 0;
 	}
 	.navbar-collapse {
 		padding: 15px;
@@ -141,148 +72,24 @@
 	.navbar-nav {
 		margin: 0px;
 	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
+	.navbar-nav > li > a {
+		padding: 10px 9px;
 		display: block;
 		border-left: none
 	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 350px;
+	.navbar-nav > li > a.btn {
+	    padding: 10px;
+	    margin-top: 0;
+	}
+	.slider-icon {
+	    font-size: 60px;
+	}
+	.about .got-houses {
+	    font-size: 70px;
 	}
 }
 
-@media screen and (min-width: 639px) and (max-width: 720px) {
-	.top-icon {
-		width: 25px;
-		height: 25px;
-		line-height: 25px;
-		margin-right: 5px;
-	}
-	.site-banner {
-		display: none;
-	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
-	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
-	}
-	.contact-list li {
-		padding-right: 10px;
-	}
-	.navbar-collapse {
-		padding: 15px;
-	}
-	.navbar-nav {
-		margin: 0px;
-	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 320px;
-	}
-}
-
-@media screen and (min-width: 569px) and (max-width: 640px) {
-	.contact-list li {
-		padding-right: 5px;
-	}
-	.top-icon {
-		width: 25px;
-		height: 25px;
-		line-height: 25px;
-		margin-right: 0px;
-	}
-	.site-banner {
-		display: none;
-	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
-	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
-	}
-	.navbar-collapse {
-		padding: 15px;
-	}
-	.navbar-nav {
-		margin: 0px;
-	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 320px;
-	}
-}
-
-@media screen and (min-width: 481px) and (max-width: 568px) {
-	.contact-list li {
-		padding-right: 5px;
-	}
-	.top-social {
-		display: none;
-	}
-	.top-icon {
-		width: 25px;
-		height: 25px;
-		line-height: 25px;
-		margin-right: 0px;
-	}
-	.site-banner {
-		display: none;
-	}
-	.menu-logo {
-		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
-	}
-	.navbar-toggle {
-		border: none;
-		font-size: 2em;
-		padding-top: 10px;
-		margin: 0px;
-	}
-	.navbar-collapse {
-		padding: 15px;
-	}
-	.navbar-nav {
-		margin: 0px;
-	}
-	.navbar-nav>li>a {
-		padding: 10px !important;
-		display: block;
-		border-left: none
-	}
-	.main-slider,
-	.main-slider svg,
-	.google-map-container {
-		height: 320px;
-	}
-}
-
-@media screen and (min-width: 415px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.top-contact {
 		display: none;
 	}
@@ -291,8 +98,12 @@
 	}
 	.menu-logo {
 		display: inline-block;
-		padding-top: 10px;
-		max-width: 130px;
+	}
+	.menu-logo .icon-gotd-logo {
+	    font-size: 40px;
+	}
+	.menu-logo .icon-gotd-logo:before {
+	    width: auto;
 	}
 	.navbar-toggle {
 		border: none;
