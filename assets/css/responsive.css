@@ -144,7 +144,6 @@
 	    font-size: 14px;
 	    line-height: 18px;
 	}
-	}
 	.carousel-title::first-letter,
 	.carousel-title .cap {
 	    font-size: 18px;
@@ -163,7 +162,7 @@
 	}
 	.about.about-tours {
 	    padding-top: 0;
-	    margin-bottom: 80px;
+	    padding-bottom: 80px;
 	}
 	.about.about-tours .got-houses {
 	    margin-bottom: 0;
@@ -211,8 +210,17 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
 	.about .got-houses {
 	    font-size: 35px;
+	}
+	.slider-icon {
+	    font-size: 26px;
+	}
+	.carousel-title {
+    	font-size: 12px;
+	}
+	.carousel-title::first-letter, .carousel-title .cap {
+	    font-size: 14px;
 	}
 }

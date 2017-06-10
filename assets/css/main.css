@@ -494,7 +494,8 @@ header .site-logo {
 	background: url(/images/bg-forts-about.png) no-repeat right top;
 	z-index: 1;
 }
-#about.about-tours .forts-bg {
+#about.about-tours .forts-bg,
+#about.about-gallery .forts-bg {
     margin-top: -220px;
 }
 #about .forts-bg + .container {
@@ -503,17 +504,22 @@ header .site-logo {
 }
 .about {
 	/*padding-top: 40px;*/
-	margin-bottom: 80px;
+	padding-bottom: 80px;
 }
 .about.about-tours {
 	padding-top: 12px;
-	margin-bottom: 110px;
+	padding-bottom: 110px;
+}
+.about.about-gallery {
+	padding-top: 12px;
+	padding-bottom: 60px;
 }
 .about .got-houses {
 	color: #ad1324;
 	font-size: 130px;
 }
-.about.about-tours .got-houses {
+.about.about-tours .got-houses,
+.about.about-gallery .got-houses {
 	margin-bottom: 0;
 	font-size: 103px;
 }
@@ -530,7 +536,8 @@ header .site-logo {
 	color: #ad1324;
 	text-transform: uppercase;
 }
-.about-tours .about-title {
+.about-tours .about-title,
+.about-gallery .about-title {
 	margin-bottom: 14px;
 }
 
@@ -665,19 +672,23 @@ header .site-logo {
 	color: #8f8f8f;
 }
 
-/* Homegallery Section */
-#home-gallery .row {
+/* Gallery Section */
+#gallery.gallery-page {
+	position: relative;
+	z-index: 1;
+}
+#gallery .row {
 	margin: 0;
 }
-#home-gallery [class^="col-"], #home-gallery [class*=" col-"] {
+#gallery [class^="col-"], #gallery [class*=" col-"] {
 	padding: 0;
 }
-#home-gallery a.item-image {
+#gallery a.item-image {
     position: relative;
     display: block;
     color: #fff;
 }
-#home-gallery a.item-image:after {
+#gallery a.item-image:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -691,10 +702,10 @@ header .site-logo {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-#home-gallery a.item-image:hover:after {
+#gallery a.item-image:hover:after {
     background: rgba(0,0,0,.5);
 }
-#home-gallery a.item-image .icon-plus {
+#gallery a.item-image .icon-plus {
     font-size: 50px;
     position: absolute;
     transform: translate(-50%,0);
@@ -711,7 +722,7 @@ header .site-logo {
 	transition: all .25s ease;
     z-index: 1;
 }
-#home-gallery a.item-image:hover .icon-plus {
+#gallery a.item-image:hover .icon-plus {
     transform: translate(-50%,-50%);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	-moz-opacity: 1;

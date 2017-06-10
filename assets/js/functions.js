@@ -35,7 +35,7 @@
 
     /*------------------------- Magnific Popup ----------------------------*/
 
-    $('#home-gallery a').magnificPopup({
+    $('.item-image').magnificPopup({
         type:'image',
         removalDelay: 300,
         mainClass: 'mfp-fade',
