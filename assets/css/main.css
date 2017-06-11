@@ -161,6 +161,10 @@ button:focus {
 	box-shadow: none;
 	outline: 0 !important;
 } 
+.text-primary {
+	color: #ad1324;
+	text-transform: uppercase;
+}
 .btn {
 	padding: 10px 30px;
 	line-height: 1.42857143;
@@ -272,10 +276,15 @@ h2 {
 	margin-bottom: 50px;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #ad1324;
 }
 h4 {
-	font-size: 1.375em;
+	font-size: 16px;
+	margin-top: 30px;
+    margin-bottom: 10px;
 }
 h5 {
 	font-family: 'Noto Sans', 'Arial', Arial, sans-serif;
@@ -505,6 +514,9 @@ header .site-logo {
 .about {
 	/*padding-top: 40px;*/
 	padding-bottom: 80px;
+}
+.about ul {
+	margin-bottom: 20px;
 }
 .about.about-tours {
 	padding-top: 12px;
