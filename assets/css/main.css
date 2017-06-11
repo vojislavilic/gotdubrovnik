@@ -856,6 +856,12 @@ footer .form-group {
 	color: #999;
 	background: url(/images/bg-footer-top.jpg) no-repeat right bottom;
 }
+.footer-top.contact-block {
+	position: relative;
+	background: none;
+	padding-top: 0;
+	z-index: 1;
+}
 .footer-top .contact-list {
 	margin-bottom: 50px;
 }
@@ -865,9 +871,16 @@ footer .form-group {
 .footer-top .contact-list .top-info {
 	font-size: 12px;
 }
+.footer-top.contact-block .contact-list .top-info {
+    font-size: 14px;
+    color: #333;
+}
 .footer-top .contact-list .top-icon {
 	font-size: 20px;
 	color: #999;
+}
+.footer-top.contact-block .contact-list .top-icon {
+	color: #333;
 }
 .footer-top .top-info {
 	display: inline-block;
@@ -883,6 +896,11 @@ footer .form-group {
 	font-size: 11px;
 	color: #eaeaea;
 	letter-spacing: normal;
+}
+.footer-top.contact-block .footer-disclaimer h6 {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
 }
 .footer-bottom {
 	background-color: #3a3a3a;
