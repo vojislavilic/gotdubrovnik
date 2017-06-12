@@ -519,6 +519,11 @@ header .site-logo {
 .about {
 	/*padding-top: 40px;*/
 	padding-bottom: 80px;
+	background: url(/images/bg-rocks.jpg) center center;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 .about ul {
 	margin-bottom: 20px;
@@ -667,6 +672,11 @@ header .site-logo {
 #facts {
 	padding-top: 60px;
 	padding-bottom: 90px;
+	background: url(/images/bg-rocks.jpg) center center;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 #facts .forts-bg {
 	position: absolute;
@@ -703,18 +713,22 @@ header .site-logo {
 	position: relative;
 	z-index: 1;
 }
-#gallery .row {
+#gallery .row,
+.gallery-page .row {
 	margin: 0;
 }
-#gallery [class^="col-"], #gallery [class*=" col-"] {
+#gallery [class^="col-"], #gallery [class*=" col-"],
+.gallery-page [class^="col-"], .gallery-page [class*=" col-"] {
 	padding: 0;
 }
-#gallery a.item-image {
+#gallery a.item-image,
+.gallery-page a.item-image {
     position: relative;
     display: block;
     color: #fff;
 }
-#gallery a.item-image:after {
+#gallery a.item-image:after,
+.gallery-page a.item-image:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -728,10 +742,12 @@ header .site-logo {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-#gallery a.item-image:hover:after {
+#gallery a.item-image:hover:after,
+.gallery-page a.item-image:hover:after {
     background: rgba(0,0,0,.5);
 }
-#gallery a.item-image .icon-plus {
+#gallery a.item-image .icon-plus,
+.gallery-page a.item-image .icon-plus {
     font-size: 50px;
     position: absolute;
     transform: translate(-50%,0);
@@ -748,7 +764,8 @@ header .site-logo {
 	transition: all .25s ease;
     z-index: 1;
 }
-#gallery a.item-image:hover .icon-plus {
+#gallery a.item-image:hover .icon-plus,
+.gallery-page a.item-image:hover .icon-plus {
     transform: translate(-50%,-50%);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	-moz-opacity: 1;
@@ -760,7 +777,11 @@ header .site-logo {
 #guide {
 	padding-top: 60px;
 	padding-bottom: 140px;
-	background: url(/images/bg-guide.png) no-repeat center 20px;
+	background: url(/images/bg-rocks.jpg) center center;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 #guide p {
 	line-height: 24px;
@@ -832,7 +853,7 @@ header .site-logo {
 .about.tour-details {
     position: relative;
     z-index: 2;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     overflow: hidden;
 }
 .about.tour-details .got-houses {
@@ -911,8 +932,7 @@ footer .form-group {
 }
 .footer-top.contact-block {
 	position: relative;
-	background: none;
-	padding-top: 0;
+	background: url(/images/bg-rocks.jpg) center center;
 	z-index: 1;
 }
 .footer-top .contact-list {
