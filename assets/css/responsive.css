@@ -27,8 +27,9 @@
 	    margin-top: -80px;
 	    background-size: 60% auto;
 	}
-	#about.about-tours .forts-bg {
-	    margin-top: -100px;
+	#about.about-tours .forts-bg,
+	#about.about-gallery .forts-bg {
+    	margin-top: -100px;
 	}
 	.about .got-houses {
 	    font-size: 100px;
@@ -151,7 +152,8 @@
 	#about .forts-bg {
 	    margin-top: 0;
 	}
-	#about.about-tours .forts-bg {
+	#about.about-tours .forts-bg,
+	#about.about-gallery .forts-bg {
 	    margin-top: 0;
 	}
 	.about .got-houses {

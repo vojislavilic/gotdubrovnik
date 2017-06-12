@@ -454,6 +454,7 @@ header .site-logo {
 	font-size: 34px;
 	line-height: 55px;
 	color: #fff;
+	margin-top: 0;
 }
 .carousel-title::first-letter,
 .carousel-title .cap {
