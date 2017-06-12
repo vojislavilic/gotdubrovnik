@@ -432,6 +432,9 @@ header .site-logo {
 #main-slider {
 	overflow: hidden;
 }
+#main-slider .item img {
+	width: 100%;
+}
 .carousel-caption {
 	left: 0;
 	padding-bottom: 0px;
