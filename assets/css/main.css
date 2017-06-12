@@ -450,6 +450,7 @@ header .site-logo {
 .carousel-title {
 	font-size: 34px;
 	line-height: 55px;
+	color: #fff;
 }
 .carousel-title::first-letter,
 .carousel-title .cap {
@@ -517,6 +518,14 @@ header .site-logo {
 }
 .about ul {
 	margin-bottom: 20px;
+}
+.about ul li {
+	display: block;
+	margin-bottom: 10px;
+}
+.about ul li .list-title {
+    font-weight: bold;
+    display: block;
 }
 .about.about-tours {
 	padding-top: 12px;
@@ -620,6 +629,7 @@ header .site-logo {
 	font-weight: bold;
 	letter-spacing: 1.2px;
 	text-transform: uppercase;
+	margin-top: 0;
 }
 .card-footer {
     overflow: hidden;
@@ -812,6 +822,33 @@ header .site-logo {
 	padding: 8px 20px 10px 20px;
 	margin-bottom: 0;
 	height: 40px;
+}
+
+/* Tour details page */
+.about.tour-details {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.about.tour-details .got-houses {
+    font-size: 100px;
+}
+.tour-details .about-title {
+	margin-bottom: 20px;
+}
+.tour-details .subline {
+    background: url(/images/bg-subline.png) no-repeat center center;
+    height: 3px;
+    margin-bottom: 50px;
+}
+.tour-details .info-title {
+    font-family: 'game_of_thrones_dubrovnik', serif;
+    color: #ad1324;
+    letter-spacing: 1.5px;
+}
+.tour-details .info-desc {
+    margin-bottom: 10px;
 }
 
 /* Scroll To Top */
