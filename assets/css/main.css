@@ -842,12 +842,12 @@ header .site-logo {
     height: 3px;
     margin-bottom: 50px;
 }
-.tour-details .info-title {
+.about .info-title {
     font-family: 'game_of_thrones_dubrovnik', serif;
     color: #ad1324;
     letter-spacing: 1.5px;
 }
-.tour-details .info-desc {
+.about .info-desc {
     margin-bottom: 10px;
 }
 
