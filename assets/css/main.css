@@ -998,6 +998,21 @@ footer .form-group {
 .footer-bottom .social-footer li a:hover {
 	color: #fff;
 }
+.footer-bottom .social-footer li.social-link {
+	vertical-align: top;
+}
+.footer-bottom .social-footer li.social-link .socialWidget a {
+    display: inline-block;
+    background: none;
+}
+.footer-bottom .social-footer li.social-link .TA_socialButtonIcon a {
+    display: block;
+}
+.footer-bottom .social-footer li.social-link .socialWidget a img,
+.footer-bottom .social-footer li.social-link .TA_socialButtonIcon img {
+    width: 43px;
+    display: block;
+}
 .footer-bottom .social-footer li.social-link a {
 	margin-left: 20px;
 	width: 43px;
