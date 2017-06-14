@@ -195,6 +195,9 @@ button:focus {
 .btn-transparent {
 	color: #7e7e7e;
 }
+.btn-xs {
+	padding: 10px 10px;
+}
 .btn-md {
 	padding: 10px 15px;
 }
