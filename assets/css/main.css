@@ -243,6 +243,15 @@ button:focus {
     background: url(/images/bg-subline-white.png) no-repeat center center;
     margin-bottom: 40px;
 }
+.label.cardthumb-label {
+    position: absolute;
+    background: #ad1324;
+    font-size: 14px;
+    padding: 14px 23px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .dropdown-menu {
     min-width: initial;
     padding: 0;
@@ -503,7 +512,7 @@ header .site-logo {
 }
 
 /* About Section */
-#about .forts-bg {
+.about .forts-bg {
 	position: absolute;
     width: 100%;
     height: 100%;
@@ -511,11 +520,12 @@ header .site-logo {
 	background: url(/images/bg-forts-about.png) no-repeat right top;
 	z-index: 1;
 }
-#about.about-tours .forts-bg,
-#about.about-gallery .forts-bg {
+.about.about-tours .forts-bg,
+.about.about-gallery .forts-bg {
     margin-top: -220px;
 }
-#about .forts-bg + .container {
+.about .forts-bg + .container,
+section.our-tours {
 	position: relative;
 	z-index: 2;
 }
@@ -595,6 +605,9 @@ header .site-logo {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+}
+.card .card-thumbnail {
+	position: relative;
 }
 .card .card-thumbnail img {
 	-webkit-border-top-left-radius: 3px;
